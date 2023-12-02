@@ -1,12 +1,12 @@
+import Navbar from "@/Components/Header/Navbar";
+import Logo from "@/Utility/Logo";
 import React from "react";
 
 const HomePage = () => {
   return (
-    <div>
-      <h1 className="text-4xl text-center my-10 font-bold">
-        This is home page
-      </h1>
-    </div>
+    <>
+      <Navbar></Navbar>
+    </>
   );
 };
 

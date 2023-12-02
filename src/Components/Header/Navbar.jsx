@@ -1,7 +1,11 @@
+import Logo from "@/Utility/Logo";
+import NavList from "./NavList";
+
 const Navbar = () => {
   return (
-    <div>
-      <h1>Navbar</h1>
+    <div className="flex justify-between items-center my-5 max-w-7xl mx-auto">
+      <Logo />
+      <NavList />
     </div>
   );
 };

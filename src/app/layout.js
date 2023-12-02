@@ -1,5 +1,5 @@
-import Footer from "@/Components/Footer/Footer";
 import "./globals.css";
+import Footer from "@/Components/Footer/Footer";
 import Subscribe from "@/Components/Subscribe/Subscribe";
 
 export const metadata = {
