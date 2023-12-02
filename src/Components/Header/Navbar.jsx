@@ -1,4 +1,4 @@
-import Logo from "@/Utility/Logo";
+import Logo from "@/Components/Utility/Logo";
 import NavList from "./NavList";
 
 const Navbar = () => {

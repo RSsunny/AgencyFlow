@@ -1,6 +1,6 @@
 import "./globals.css";
-import Footer from "@/Components/Footer/Footer";
-import Subscribe from "@/Components/Subscribe/Subscribe";
+import Footer from "../Components/Footer/Footer";
+import Subscribe from "../Components/Subscribe/Subscribe";
 
 export const metadata = {
   title: "Agency Flow",
@@ -10,9 +10,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="light">
-      <body>{children}</body>
-      <Subscribe />
-      <Footer></Footer>
+      <body>
+        {children}
+
+        <Subscribe />
+        <Footer></Footer>
+      </body>
     </html>
   );
 }
