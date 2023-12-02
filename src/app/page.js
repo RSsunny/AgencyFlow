@@ -1,5 +1,6 @@
 import Banner from "@/Components/Header/Banner";
-import Navbar from "@/Components/Header/Navbar";
+import Featured from "@/Components/Home/Featured";
+import StateList from "@/Components/Home/StateList";
 import WorkList from "@/Components/Home/WorkList";
 import Logo from "@/Utility/Logo";
 import React from "react";
@@ -7,9 +8,10 @@ import React from "react";
 const HomePage = () => {
   return (
     <div>
-      <Navbar></Navbar>
       <Banner></Banner>
       <WorkList></WorkList>
+      <StateList></StateList>
+      <Featured />
     </div>
   );
 };

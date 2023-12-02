@@ -8,6 +8,7 @@ const NavList = () => {
       <Link href={"/team"}>Team</Link>
       <Link href={"/service"}>Service</Link>
       <Link href={"/projects"}>Projects</Link>
+      <Link href={"/testimonials"}>Testimonial List</Link>
       <Link href={"/login"} className="px-4 py-2 rounded-md border">
         Login
       </Link>

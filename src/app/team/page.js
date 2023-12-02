@@ -1,8 +1,12 @@
+import TeamMember from "@/Components/Team/TeamMember";
+import BannerLink from "@/Shared/BannerLink";
+
 const TeamPage = () => {
   return (
-    <div>
-      <h1>team page</h1>
-    </div>
+    <>
+      <BannerLink title={"Team"}></BannerLink>
+      <TeamMember />
+    </>
   );
 };
 
