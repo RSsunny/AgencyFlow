@@ -1,6 +1,7 @@
 import Banner from "@/Components/Header/Banner";
 import Navbar from "@/Components/Header/Navbar";
-import Logo from "@/Components/Utility/Logo";
+import WorkList from "@/Components/Home/WorkList";
+import Logo from "@/Utility/Logo";
 import React from "react";
 
 const HomePage = () => {
@@ -8,6 +9,7 @@ const HomePage = () => {
     <div>
       <Navbar></Navbar>
       <Banner></Banner>
+      <WorkList></WorkList>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 "use client";
 
-import Logo from "@/Components/Utility/Logo";
+import Logo from "@/Utility/Logo";
 
 const Footer = () => {
   return (
