@@ -2,6 +2,7 @@ import React from "react";
 import Button from "@/Shared/Button";
 import BrandList from "../Home/BrandList";
 import Album from "@/Shared/Album";
+import AnimationText from "@/Utility/AnimationText";
 async function getData() {
   const res = await fetch("https://agency.teamrabbil.com/api/HeroList");
   return res.json();
@@ -20,6 +21,9 @@ const Banner = async () => {
                 We help businesses like yours earn more customers, standout from
                 competitors, make more money
               </p>
+              <div className="flex gap-3 items-center">
+                <h1>Rabius Sunny</h1> <AnimationText></AnimationText>
+              </div>
               <Button
                 text={"Get Started"}
                 btnbg={"text-white bg-[#20B15A]"}
