@@ -3,6 +3,7 @@ import Button from "@/Shared/Button";
 import BrandList from "../Home/BrandList";
 import Album from "@/Shared/Album";
 import AnimationText from "@/Utility/AnimationText";
+import AnimationTwo from "@/Utility/AnimationTwo";
 async function getData() {
   const res = await fetch("https://agency.teamrabbil.com/api/HeroList");
   return res.json();
@@ -24,6 +25,7 @@ const Banner = async () => {
               <div className="flex gap-3 items-center">
                 <h1>Rabius Sunny</h1> <AnimationText></AnimationText>
               </div>
+              <AnimationTwo></AnimationTwo>
               <Button
                 text={"Get Started"}
                 btnbg={"text-white bg-[#20B15A]"}

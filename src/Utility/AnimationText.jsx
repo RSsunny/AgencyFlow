@@ -10,7 +10,7 @@ const AnimationText = () => {
       const nextIndex = (currentIndex + 1) % textArray.length;
       setDisplayText(textArray[nextIndex]);
       setCurrentIndex(nextIndex);
-    }, 500);
+    }, 2000);
     // Cleanup the timer to avoid memory leaks
     return () => clearTimeout(timer);
   }, [currentIndex]);
